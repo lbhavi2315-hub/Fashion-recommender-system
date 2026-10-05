@@ -17,7 +17,7 @@ Python, TensorFlow / Keras (ResNet50), scikit-learn, NumPy, Streamlit, Pillow, O
 
 | File | What it does |
 |------|--------------|
-| `app.py` | Reads all images from the `images/` folder, extracts features and saves `embeddings.pkl` and `filenames.pkl` |
+| `extract-features.py` | Reads all images from the `images/` folder, extracts features and saves `embeddings.pkl` and `filenames.pkl` |
 | `main.py` | Streamlit web app: upload an image and get recommendations |
 | `test.py` | Quick test script: runs one sample image and shows results with OpenCV |
 | `styles.csv` | Product details (category, colour, season, name) for each image |
